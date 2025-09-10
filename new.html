@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       
+        .main
+        {
+            /* display: grid;
+            grid-template-columns: 500px auto auto  ;
+            grid-template-rows: auto 250px auto ; */
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 100px 300px 300px 100px;
+            gap: 10px;
+            
+        }
+        .header
+        {
+            background-color: red;
+            grid-column: 1 / span 3;
+           
+            
+        }
+        .side
+        {
+            background-color: orange;
+            grid-row: 2 / span 2;
+            
+            
+        }
+        .temp1
+        {
+            background-color: blue;
+        }
+        .temp2
+        {
+            background-color: blue;
+        }
+        .temp3
+        {
+            background-color: blue;
+        }
+        .Temp4
+        {
+            background-color: blue;
+        }
+        .footer
+        {
+            background-color: green;
+            grid-column: 1 / span 3;
+          
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="main">
+        <div class="header">Header</div>
+       
+        <div class="side"> Side Bar</div>
+        <div class="temp1">Temp1</div>
+        <div class="temp2">Temp2</div>
+        <div class="temp3">Temp3</div>
+        <div class="Temp4">Temp4</div>
+       
+
+        <div class="footer">Footer</div>
+    </div>
+    
+</body>
+</html>
